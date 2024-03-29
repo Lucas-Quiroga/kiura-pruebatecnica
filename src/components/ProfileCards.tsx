@@ -128,7 +128,7 @@ const ProfileCards = ({ workFilter }: ProfileCardsComponent) => {
                 href={`/buscar/${professional.id}`}
               >
                 <Button size="sm" variant="outline">
-                  View Profile
+                  Ver Perfil
                 </Button>
               </a>
             </Card>
@@ -198,7 +198,7 @@ const ProfileCards = ({ workFilter }: ProfileCardsComponent) => {
                 href={`/buscar/${professional.id}`}
               >
                 <Button size="sm" variant="outline">
-                  View Profile
+                  Ver Perfil
                 </Button>
               </a>
             </Card>
