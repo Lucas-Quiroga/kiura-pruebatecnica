@@ -1,0 +1,71 @@
+Descripción del Proyecto Frontend:
+
+Desarrolla la interfaz de usuario (UI) para la plataforma en línea de servicios profesionales que conecta
+a usuarios con profesionales en diversas áreas. El frontend proporcionará una experiencia intuitiva y
+fácil de usar para que los usuarios puedan buscar, contratar y calificar a profesionales.
+Objetivo del Proyecto Frontend:
+
+El objetivo principal es crear una interfaz de usuario atractiva y funcional que permita a los usuarios
+navegar por la plataforma de manera eficiente, buscar profesionales según sus necesidades específicas,
+ver información detallada sobre los profesionales y realizar acciones como contratar y calificar.
+Requerimientos del Proyecto Frontend:
+
+[X] 1. Interfaz de Usuario Intuitiva:
+   [X] • Diseñar una interfaz de usuario limpia y fácil de usar que proporcione una experiencia
+        de navegación fluida para los usuarios.
+    [X]• Incluir una barra de navegación o menú para acceder a diferentes secciones de la
+        plataforma, como la página de inicio, la búsqueda de profesionales, el perfil del usuario,
+        etc.
+
+[X] 2. Búsqueda y Filtrado de Profesionales:
+    [X FALTA LOGICA] • Implementar un mecanismo de búsqueda que permita a los usuarios buscar profesionales
+        por categoría de trabajo, ubicación, calificaciones, etc.
+   [X FALTA LOGICA] • Agregar opciones de filtrado para refinar los resultados de búsqueda según criterios
+        específicos.
+
+[ ] 3. Visualización de Perfiles de Profesionales:
+    [X] • Mostrar información detallada sobre los profesionales, incluyendo su foto, nombre,
+        categoría de trabajo, calificaciones, comentarios de otros usuarios, etc.
+    [X] • Permitir a los usuarios ver el perfil completo de un profesional antes de decidir
+        contratarlo.
+
+[ ] 4. Contratación de Profesionales:
+    • Implementar un flujo de contratación intuitivo que permita a los usuarios enviar
+        solicitudes de contratación a los profesionales.
+    • Proporcionar confirmaciones visuales y mensajes de éxito después de que se haya
+        realizado una contratación con éxito.
+
+[ ] 5. Registro de Profesionales y Empleados:
+    • Durante el registro, permitir a los profesionales y empleados tomar una foto en tiempo
+        real utilizando la cámara del dispositivo.
+
+    • Integrar una funcionalidad de captura de fotos en tiempo real que garantice una
+        experiencia fluida y sin problemas para los usuarios.
+
+[ ] 6. Gestión de Perfil de Usuario:
+    • Permitir a los usuarios editar su perfil, incluyendo información personal, preferencias de
+        contacto, etc.
+    • Implementar opciones para que los usuarios cambien su contraseña, actualicen su
+        información de contacto, etc.
+
+[ ] 7. Integración con la API Backend:
+    • Conectar el frontend con la API backend para consumir y enviar datos, como la
+        información del usuario, la lista de profesionales, las solicitudes de contratación, etc.
+    • Manejar respuestas de la API de manera adecuada, mostrando mensajes de error o éxito
+        según corresponda.
+
+Documentación, GitHub y Despliegue:
+    • Proporcionar documentación detallada sobre cómo ejecutar el frontend localmente, incluyendo
+        la instalación de dependencias, la configuración del entorno y el inicio del servidor de
+        desarrollo.
+    • El código fuente debe estar disponible en un repositorio público en GitHub con instrucciones
+        claras sobre cómo clonar y configurar el proyecto localmente.
+    • Proporcionar instrucciones sobre cómo desplegar el frontend en un entorno de producción,
+        incluyendo la configuración del servidor web, la compilación de archivos estáticos y la
+        implementación de la aplicación.
+    • El plazo para completar el proyecto es de dos días, por lo que se espera que el equipo de
+        desarrollo trabaje de manera eficiente y efectiva para cumplir con los objetivos establecidos
+        dentro del tiempo asignado.
+    • Utilizar tecnologías modernas como React.js, TypeScript y Tailwind CSS para el desarrollo del
+        frontend, asegurando así una experiencia de usuario de alta calidad y un código mantenible y
+        escalable.
