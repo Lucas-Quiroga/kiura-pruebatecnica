@@ -4,9 +4,9 @@
 
 Este repositorio contiene el código fuente para el frontend de nuestra aplicación. A continuación, encontrarás instrucciones detalladas sobre cómo ejecutar el frontend localmente, configurar el entorno de desarrollo, así como desplegar la aplicación en un entorno de producción.
 
-## Deployment 📦
+## Despliegue en directo 📦
 
-- [DEMO](https://kiura-app-front.netlify.app/) - Website
+- [DEMO](https://kiura-app-front.netlify.app/) - Sitio web
 
 ## Ejecutar el Frontend Localmente
 
