@@ -35,7 +35,7 @@ const FormRegister = () => {
       return;
     }
     setSuccess(true);
-    // Aquí puedes enviar los datos a tu API
+
     console.log(data);
   };
 

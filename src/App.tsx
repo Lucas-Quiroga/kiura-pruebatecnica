@@ -1,11 +1,9 @@
 import "./App.css";
 import Header from "./components/Header";
-import ProfilePage from "./pages/ProfilePage";
 import SearchPage from "./pages/SearchPage";
 import HomePage from "./pages/HomePage";
 import ProfileUserPage from "./pages/ProfileUserPage";
 import ProfileCardsDetail from "./components/ProfileCardsDetail";
-import ProfileProfesionalPage from "./pages/ProfileProfesionalPage";
 import RegisterProfesionalPage from "./pages/RegisterProfesionalPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
