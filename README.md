@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Frontend - Documentación
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido!
 
-Currently, two official plugins are available:
+Este repositorio contiene el código fuente para el frontend de nuestra aplicación. A continuación, encontrarás instrucciones detalladas sobre cómo ejecutar el frontend localmente, configurar el entorno de desarrollo, así como desplegar la aplicación en un entorno de producción.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ejecutar el Frontend Localmente
 
-## Expanding the ESLint configuration
+### Instalación de Dependencias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Asegúrate de tener Node.js y npm instalados en tu sistema. Luego, en la raíz del proyecto, ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-- Configure the top-level `parserOptions` property like this:
+npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Configuración del Entorno:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Antes de iniciar el servidor de desarrollo, asegúrate de configurar cualquier variable de entorno necesaria. Puedes encontrar un archivo `.env.example` que contiene las variables necesarias. Crea un archivo `.env` y asigna los valores adecuados a cada variable.
+
+### Inicio del Servidor de Desarrollo:
+
+Una vez completada la instalación de las dependencias y la configuración del entorno, puedes iniciar el servidor de desarrollo ejecutando el siguiente comando:
+
+npm run dev
+
+Esto iniciará el servidor de desarrollo y podrás acceder a la aplicación en tu navegador en la dirección `http://localhost:5173`.
+
+## Clonar y Configurar el Proyecto
+
+### Clonar el Repositorio:
+
+Clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+git clone https://github.com/Lucas-Quiroga/kiura-pruebatecnica.git
+
+### Instalar Dependencias:
+
+Una vez clonado el repositorio, navega hasta el directorio del proyecto y ejecuta:
+
+npm install
+
+### Configurar el Entorno:
+
+Sigue los pasos de configuración del entorno mencionados anteriormente.
+
+## Desplegar el Frontend en un Entorno de Producción
+
+### Compilación de Archivos Estáticos:
+
+Antes de desplegar, debes compilar los archivos estáticos de la aplicación. Ejecuta el siguiente comando:
+
+npm run build
+
+Esto generará una carpeta `build` con los archivos estáticos listos para ser desplegados.
+
+### Implementación de la Aplicación:
+
+Copia los archivos estáticos generados en la carpeta `build` a tu servidor web y configura la aplicación para que sea servida adecuadamente.
